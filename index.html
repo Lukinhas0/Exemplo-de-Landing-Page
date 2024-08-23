@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Seu Nome</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link para os ícones do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/kTc5h0C1Qms6m+o3ZxWJoFfCF/XGxH5b1w+v7a0tyS0kqY6jUOzk6ENjBSU4UqZJpHvK83GZV4+Ng==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link para as fontes do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Dobra 1: Cabeçalho/Introdução -->
+    <header class="header">
+        <div class="container">
+            <h1>Olá, eu sou <span>Seu Nome</span></h1>
+            <p>Desenvolvedor Full Stack e entusiasta de tecnologia.</p>
+            <div class="cta">
+                <a href="#projects" class="btn">Veja meus projetos</a>
+            </div>
+            <!-- Adicionando links de contato no cabeçalho -->
+            <div class="contact-info">
+                <a href="https://wa.me/5591999999999" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i>
+                        <img src="icons8-whatsapp-60.png" alt="Whatsapp" class="contact-img">
+                    </a>
+                <a href="https://github.com/seu-usuario" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i>
+                        <img src="icons8-github-60.png" alt="GitHub" class="contact-img">
+                    </a>
+                <a href="https://www.linkedin.com/in/seu-usuario" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i>
+                        <img src="icons8-linkedin-60.png" alt="Linkedin" class="contact-img">
+                    </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Dobra 2: Sobre Mim -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Com experiência em várias linguagens de programação e frameworks, estou sempre em busca de novos desafios e oportunidades para crescer como profissional.</p>
+            <div class="social-links">
+                <a href="https://github.com/seu-usuario" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i>
+                        <img src="icons8-github-60.png" alt="GitHub">
+                    </a>
+                <a href="https://www.linkedin.com/in/seu-usuario" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i>
+                        <img src="icons8-linkedin-60.png" alt="Linkedin">
+                    </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dobra 3: Habilidades -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <i class="fas fa-code"></i>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>HTML, CSS, JavaScript, React, Angular.</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-server"></i>
+                    <h3>Back-End</h3>
+                    <p>Node.js, Python, Ruby, Java.</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-database"></i>
+                    <h3>Bancos de Dados</h3>
+                    <p>MySQL, PostgreSQL, MongoDB.</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-cloud"></i>
+                    <h3>DevOps</h3>
+                    <p>Docker, AWS, CI/CD.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dobra 4: Projetos -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <img src="project1.jpg" alt="Projeto 1">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição breve do projeto e tecnologias utilizadas.</p>
+                    <a href="#" class="btn">Ver Projeto</a>
+                </div>
+                <div class="project">
+                    <img src="project2.jpg" alt="Projeto 2">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição breve do projeto e tecnologias utilizadas.</p>
+                    <a href="#" class="btn">Ver Projeto</a>
+                </div>
+                <div class="project">
+                    <img src="project3.jpg" alt="Projeto 3">
+                    <h3>Projeto 3</h3>
+                    <p>Descrição breve do projeto e tecnologias utilizadas.</p>
+                    <a href="#" class="btn">Ver Projeto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dobra 5: Contato -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Se você está interessado em trabalhar comigo ou quer saber mais sobre meu trabalho, entre em contato através do formulário abaixo.</p>
+            <form action="#" method="post" class="contact-form">
+                <input type="text" name="nome" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu E-mail" required>
+                <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+                <input type="submit" value="Enviar Mensagem" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
